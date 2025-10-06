@@ -9,14 +9,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        light: "#FBFBFB",
-        dark: "#0C263B",
-        btnLight: "#F6F5F2",
+        light: "#FFFFF5",
+        dark: "#3E3E3E",
+        btnLight: "#FFFFF5",
         btnDark: "#09122C",
         btnRight: "#7743DB",
-        black: "#171617",
+        red: "#F95B53",
+        yellow: "#F9CB37",
+        black: "#3E3E3E",
         white: "#FEFEFF",
-        gray: "#F2F2F4",
+        gray: "#636363",
       }
     },
   },
