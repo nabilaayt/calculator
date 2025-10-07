@@ -1,4 +1,4 @@
-import Calculator from "@/components/Calculator";
+import Calculator from "@/app/components/Calculator";
 import { Stack } from "expo-router";
 import { Text, View } from "react-native";
 
