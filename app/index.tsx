@@ -5,7 +5,10 @@ import { Text, View } from "react-native";
 export default function Index() {
   return (
     <>
-    <Stack.Screen options={{ title: "Calculator" }} />
+    <Stack.Screen options={{ 
+        title: "Calculator",
+        headerTitleAlign: "center"
+      }} />
     <Calculator />
     </>
   );

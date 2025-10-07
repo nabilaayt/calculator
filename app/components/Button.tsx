@@ -27,7 +27,7 @@ export default function Button({ title, icon, type, onPress, ...rest}: ButtonPro
         >
         {icon
             ? React.cloneElement(icon, { color: iconColor })
-            : <Text className={`text-4xl font-semibold ${textColor}`}>{title}</Text>}
+            : <Text className={`font-poppinsMedium text-4xl font-semibold ${textColor}`}>{title}</Text>}
         </TouchableOpacity>
     );
 }

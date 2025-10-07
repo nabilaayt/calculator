@@ -19,7 +19,12 @@ module.exports = {
         black: "#3E3E3E",
         white: "#FEFEFF",
         gray: "#636363",
-      }
+      },
+      fontFamily: {
+        poppinsReguler: ["Poppins-Reguler"],
+        poppinsMedium: ["Poppins-Medium"],
+        poppinsBold: ["Poppins-Bold"],
+      },
     },
   },
   plugins: [],

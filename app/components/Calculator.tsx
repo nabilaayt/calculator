@@ -59,12 +59,12 @@ export default function Calculator() {
 
   return (
     <View className="flex-1">
-      <View className="flex-1 bg-light py-10 px-10 justify-end items-end">
-        <Text className="text-4xl font-medium">{firstValue + operator}</Text>
-        <Text className="text-6xl font-medium text-black">{displayValue}</Text>
+      <View className="flex-1 bg-light py-20 px-10 justify-end items-end">
+        <Text className="font-poppinsMedium text-4xl">{firstValue + operator}</Text>
+        <Text className="font-poppinsMedium  text-6xl text-black">{displayValue}</Text>
       </View>
 
-      <View className="flex-[2] bg-light flex-row flex-wrap justify-center gap-2 py-6">
+      <View className="flex-[4] bg-light flex-row flex-wrap justify-center gap-2 py-2">
         <Button icon={<Feather name="divide" size={34} />} type="top" onPress={() => handleOperatorInput("/")}/>
         <Button icon={<Feather name="percent" size={34} />} type="top" onPress={() => handleOperatorInput("%")}/>
         <Button icon={<Feather name="delete" size={34} />} type="top" onPress={handleDelete}/>
