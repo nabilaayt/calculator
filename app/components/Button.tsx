@@ -5,7 +5,7 @@ type ButtonProps = TouchableOpacityProps & {
     title?: string;
     type?: "top" | "right" | "number";
     icon?: React.ReactElement;
-    onPress?: Function
+    onPress?: Function;
 };
 
 export default function Button({ title, icon, type, onPress, ...rest}: ButtonProps) {
@@ -17,7 +17,7 @@ export default function Button({ title, icon, type, onPress, ...rest}: ButtonPro
         : "bg-light";
 
     const textColor = "text-black";
-    const iconColor = "black";
+    const iconColor = "text-black";
 
     return (
         <TouchableOpacity
@@ -30,4 +30,4 @@ export default function Button({ title, icon, type, onPress, ...rest}: ButtonPro
             : <Text className={`font-poppinsMedium text-4xl font-semibold ${textColor}`}>{title}</Text>}
         </TouchableOpacity>
     );
-}
+};
